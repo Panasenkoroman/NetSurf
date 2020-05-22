@@ -1,0 +1,29 @@
+html{
+    box-sizing: border-box;
+}
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    // max-width: 1920px;
+    // margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color:#4F4F4F;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: inline-block;
+}
+.container{
+    max-width: 1559px;
+    margin: 0 auto;
+    padding:0 15px;
+}
